@@ -14,6 +14,8 @@
 <body>
     <!-- OUTPUT: WS101 -->
     <h1 style="font-family: 'Roboto', sans-serif;">{{$name}}</h1>
+    <h1 style="font-family: 'Roboto', sans-serif;">{{$age}}</h1>
+    <h1 style="font-family: 'Roboto', sans-serif;">{{$ismale}}</h1>
 </body>
 
 </html>

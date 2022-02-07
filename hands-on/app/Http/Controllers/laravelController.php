@@ -8,10 +8,14 @@ class laravelController extends Controller
 {
     //
     public function index(){
-        $name = "WS101";
+        $name = "Jeo Carlo Lubao";
+        $age = "9999999999";
+        $ismale = "True";
         
+
+        $context = ["name"=> $name, "age" => $age, "ismale" => $ismale];
         
-        return view('index', ["name"=> $name] ); //return index.php
+        return view('index', $context ); //return index.php
     }
 }
 
